@@ -1,0 +1,25 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "API de Eventos",
+      "description": "API para gerenciar eventos"
+    },
+    "host": "127.0.0.1:5000",
+    "basePath": "/",
+    "schemes": ["http"],
+    "paths": {
+      "/eventos": {
+        "get": {
+          "summary": "Lista todos os eventos",
+          "description": "Retorna uma lista de eventos",
+          "responses": {
+            "200": {
+              "description": "Lista de eventos"
+            }
+          }
+        }
+      }
+    }
+  }
+  
